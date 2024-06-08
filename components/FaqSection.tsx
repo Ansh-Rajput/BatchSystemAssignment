@@ -8,7 +8,7 @@ const FaqSection = () => {
         <div className="text-3xl font-bold">Frequently Asked Questions</div>
       </div>
       <div className="my-3">
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap gap-3 sm:gap-0">
           {Array.from({ length: 6 }).map((_, i) => (
             <Review
               i={i}
@@ -32,7 +32,7 @@ const Review = ({ i, title, message }: ReviewProps) => {
   const backgroundColor = i % 4 === 0 || i % 4 === 3 ? "bg-[#f55]" : "bg-white";
   const textColor = i % 4 === 0 || i % 4 === 3 ? "text-white" : "text-black";
   return (
-    <div className={`w-1/2 p-7 rounded-md ${backgroundColor} ${textColor}`}>
+    <div className={`md:w-1/2 p-7 rounded-md ${backgroundColor} ${textColor}`}>
       <div className="text-2xl font-bold">{title}</div>
       <div>{message}</div>
     </div>

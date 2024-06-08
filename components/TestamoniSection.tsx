@@ -3,17 +3,17 @@ import React from "react";
 const TestamoniSection = () => {
   return (
     <div>
-      <div className="flex justify-center">
+      <div className="flex justify-center p-3">
         <div className="text-center">
           <span>TESTIMONIAL</span>
           <div className="text-3xl font-bold">What Our Users Say About Us?</div>
         </div>
       </div>
-      <div className="flex">
-        <div className="w-1/2">
+      <div className="flex justify-center">
+        <div className="w-1/2 hidden md:block">
           <img src="./testamoni/usercircle.png" alt="users" />
         </div>
-        <div className="flex items-center w-1/2">
+        <div className="flex items-center p-10 md:w-1/2">
           <div className="space-y-3">
             <h2 className="text-2xl font-bold">
               The Best Financial Accounting App Ever!

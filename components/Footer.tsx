@@ -5,8 +5,8 @@ import { MdMail, MdPhone } from "react-icons/md";
 const Footer = () => {
   const data = [];
   return (
-    <div className="p-3 flex justify-between">
-      <div className="space-y-3">
+    <div className="p-3 flex justify-between flex-col md:flex-row">
+      <div className="space-y-3 ">
         <img src="./herosection/Group.png" alt="logo" />
         <div className="flex gap-2 items-center">
           <MdMail color="#f55" size={30} /> <span>Help@Frybix.com</span>
@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="space-y-3">
+      <div className="space-y-3 ">
         <h2 className="text-4xl font-bold">Links</h2>
         <div className="flex flex-col space-y-3">
           <div>
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="space-y-3">
+      <div className="space-y-3 ">
         <h2 className="text-4xl font-bold">Legal</h2>
         <div className="flex flex-col space-y-3">
           <div>
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="space-y-3">
+      <div className="space-y-3 ">
         <h2 className="text-4xl font-bold">Product</h2>
         <div className="flex flex-col space-y-3">
           <div>
@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="space-y-3">
+      <div className="space-y-3 ">
         <h2 className="text-4xl font-bold">Newsletter</h2>
         <div className="flex flex-col space-y-3">
           <div>

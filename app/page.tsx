@@ -16,12 +16,14 @@ export default function Home() {
       <TestamoniSection />
       <FaqSection />
       <div className="p-3">
-        <div className="space-y-7 bg-[url('../public/frame.png')] text-white p-14 py-60 bg-no-repeat bg-contain rounded-xl">
-          <h2 className="text-5xl font-bold">Ready To Get Started?</h2>
-          <p className="text-2xl w-1/2">
+        <div className="space-y-7 bg-[url('../public/frame.png')] text-white p-14 sm:py-60 bg-no-repeat bg-cover sm:bg-contain rounded-xl">
+          <h2 className="text-4xl sm:text-5xl font-bold">
+            Ready To Get Started?
+          </h2>
+          <p className="sm:text-2xl sm:w-1/2">
             Risus habitant leo egestas mauris diam eget morbi tempus vulputate.
           </p>
-          <button className="flex gap-2 items-center text-2xl rounded-md bg-white p-5 px-10">
+          <button className="flex gap-2 items-center sm:text-2xl rounded-md bg-white p-3 sm:p-5 sm:px-10">
             <span className="text-black">Download</span>{" "}
             <img src="Vector.png" alt="vector" />
           </button>

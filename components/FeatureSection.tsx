@@ -2,8 +2,12 @@ import React from "react";
 
 function FeatureSection() {
   return (
-    <div className="p-3 flex">
-      <img src="./featuresection/phone.png" alt="phone" className="w-[50%]" />
+    <div className="p-5 flex relative">
+      <img
+        src="./featuresection/phone.png"
+        alt="phone"
+        className="w-[70%] sm:w-[50%] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 sm:translate-x-0 sm:translate-y-0  sm:static sm:opacity-100 opacity-20"
+      />
       <div className="relative flex items-center">
         <div className="space-y-3 h-fit">
           <div>
