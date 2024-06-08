@@ -16,7 +16,7 @@ export default function Home() {
       <TestamoniSection />
       <FaqSection />
       <div className="p-3">
-        <div className="space-y-7 bg-[url('../public/frame.png')] text-white p-14 sm:py-60 bg-no-repeat bg-cover sm:bg-contain rounded-xl">
+        <div className="space-y-7 bg-[url('../public/frame.png')] text-white p-14 md:py-60 bg-no-repeat bg-cover md:bg-contain rounded-xl">
           <h2 className="text-4xl sm:text-5xl font-bold">
             Ready To Get Started?
           </h2>

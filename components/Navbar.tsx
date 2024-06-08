@@ -16,7 +16,7 @@ const Navbar = () => {
           <a href="/">features</a>
         </div>
       </div>
-      <button className="p-3 bg-black text-white rounded-sm px-11">
+      <button className="p-3 hidden md:block bg-black text-white rounded-sm px-11">
         Download
       </button>
     </div>

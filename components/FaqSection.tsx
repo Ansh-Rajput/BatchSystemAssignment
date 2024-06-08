@@ -8,7 +8,7 @@ const FaqSection = () => {
         <div className="text-3xl font-bold">Frequently Asked Questions</div>
       </div>
       <div className="my-3">
-        <div className="flex flex-wrap gap-3 sm:gap-0">
+        <div className="flex flex-wrap gap-3 md:gap-0">
           {Array.from({ length: 6 }).map((_, i) => (
             <Review
               i={i}

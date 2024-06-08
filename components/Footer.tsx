@@ -5,10 +5,10 @@ import { MdMail, MdPhone } from "react-icons/md";
 const Footer = () => {
   const data = [];
   return (
-    <div className="p-3 flex justify-between flex-col md:flex-row">
+    <div className="p-3 flex md:justify-between gap-3 md:gap-0 flex-col md:flex-row">
       <div className="space-y-3 ">
         <img src="./herosection/Group.png" alt="logo" />
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-2 items-center ">
           <MdMail color="#f55" size={30} /> <span>Help@Frybix.com</span>
         </div>
         <div className="flex gap-2 items-center">
